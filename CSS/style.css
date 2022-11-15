@@ -1,3 +1,24 @@
-body {
-  background-color: blue;
+/* Colors: #141465 - DBlue, #f79519 - yellow, #328dcc -LBlue, #d31631 - Red */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: block;
+}
+
+div {
+  background: #141465;
+  color: azure;
+}
+
+h1 {
 }
