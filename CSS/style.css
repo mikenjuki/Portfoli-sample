@@ -1,4 +1,5 @@
 /* Colors: #141465 - DBlue, #f79519 - yellow, #328dcc -LBlue, #d31631 - Red */
+@import url("https://fonts.googleapis.com/css2?family=Charm&family=Nunito:wght@200;400&family=PT+Serif&display=swap");
 
 html {
   line-height: 1.15; /* 1 */
@@ -11,14 +12,75 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  text-align: center;
+  font-family: "PT Serif", serif;
+}
+
 main {
   display: block;
 }
 
-div {
-  background: #141465;
-  color: azure;
+h1 {
+  font-family: "Charm", cursive;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
 }
 
-h1 {
+h2 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.name-heading {
+  font-size: 5rem;
+  margin: 50px auto 10px auto;
+}
+
+.top-container {
+  background: #3de0db;
+  color: #080826;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container > :nth-child(4) {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-container > :nth-child(1) {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+/* Body */
+/* Skill */
+.icon-container {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: #090929;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.icon-container > .svg-inline--fa {
+  color: #f2f2f2;
+  height: 50px;
+  width: 50px;
+  margin: auto;
 }
