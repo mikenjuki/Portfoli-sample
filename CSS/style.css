@@ -23,6 +23,7 @@ main {
 
 h1 {
   font-family: "Charm", cursive;
+  line-height: 1.5;
 }
 h2,
 h3,
@@ -30,11 +31,6 @@ h4,
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
-}
-
-h2 {
-  font-size: 2.5rem;
-  font-weight: 200;
 }
 
 a {
@@ -45,10 +41,17 @@ a {
 .name-heading {
   font-size: 5rem;
   margin: 50px auto 10px auto;
+  /* color: #66bfbf; */
+}
+
+.description-heading {
+  font-size: 2.5rem;
+  font-weight: 200;
+  /* color: #66bfbf; */
 }
 
 .top-container {
-  background: #3de0db;
+  background: #93efe1;
   color: #080826;
   position: relative;
   padding-top: 100px;
@@ -68,6 +71,11 @@ a {
 
 /* Body */
 /* Skill */
+h3,
+a {
+  color: #11999e;
+}
+
 .icon-container {
   border-radius: 50%;
   height: 100px;
